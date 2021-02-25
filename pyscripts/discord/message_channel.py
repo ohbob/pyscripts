@@ -6,8 +6,4 @@ def discosend(message):
     webhook = DiscordWebhook(url=hookurl, content=message)
     webhook.execute()
 
-def main():
-    discosend('First message')
-
-if __name__ == '__main__':
-    main()
+ discosend('First message')
